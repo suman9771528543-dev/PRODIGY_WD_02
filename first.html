@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Stopwatch | Suman Kumari</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
-
 <body>
-  
-</body>
 
+    <h1>⏱ Stopwatch</h1>
+    
+    <div class="stopwatch-container">
+        <div class="timerDisplay">00 : 00 : 00</div>
+    </div>
+
+    <div class="buttons">
+        <button id="startBtn" class="btn" style="--clr: #2ecc71;">Start</button>
+        <button id="stopBtn" class="btn" style="--clr: #e74c3c;" disabled>Stop</button>
+        <button id="resetBtn" class="btn" style="--clr: #FFC107;" disabled>Reset</button>
+        <button id="lapBtn" class="btn" style="--clr: #3498db;" disabled>Lap</button>
+    </div>
+
+    <div class="laps-wrapper">
+        <ul class="laps" id="lapsList"></ul>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
 </html>
